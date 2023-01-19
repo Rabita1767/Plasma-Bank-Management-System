@@ -1,0 +1,55 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    background:url("https://images.unsplash.com/photo-1550147760-44c9966d6bc7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80");
+    background-size:cover;
+    
+    font-family:sans-serif;
+}
+
+.loginbox{
+    width:280px;
+    color:white;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    
+  
+}
+ .loginbox h1{
+    float:left;
+    font-size:40px;
+    border-bottom:6px solid #4caf50;
+    margin-bottom:50px;
+    padding:13px;
+
+}
+.loginbox p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+}
+.loginbox input[type="text"]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    height:40px;
+    overflow:hidden;
+}
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    background:#4caf50;
+    color:#fff;
+    font-size:18px;
+}

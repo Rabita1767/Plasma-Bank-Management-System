@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    background-size:4px 4px;
+    perspective:400px;
+    width:100%;
+    height:600px;
+}
+#bloodtype
+{
+    width:322px;
+    height:60px;
+    margin:100px auto;
+    padding:0 0 0 20px;
+    border-radius:10px;
+    font:10px arial;
+    color:#fff;
+    position:relative;
+    box-sizing:border-box;
+    border:1px solid #9b0db9;
+    animation:move 3s ease-in-out;
+    position:relative;
+}
